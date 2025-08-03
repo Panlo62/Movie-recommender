@@ -1,0 +1,61 @@
+.app {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.user-input {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100px;
+  margin-right: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0078d7;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.movie-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.movie-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.movie-card p {
+  color: #777;
+  font-size: 0.9rem;
+}
